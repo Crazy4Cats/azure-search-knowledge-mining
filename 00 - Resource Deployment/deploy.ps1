@@ -2,19 +2,19 @@
 # Licensed under the MIT License.
 
 ###### PARAMETERS SECTION #####
-$resourceGroupName = "";
-$subscriptionId = "";
+$resourceGroupName = "AS-KM";
+$subscriptionId = "c64ceb1f-6a7d-436e-9916-4d38b7c89c58";
 $location = "SouthCentralUS";
 $searchSku = "basic"; # "free", "basic", or "standard"
 
 # Resource names should be lower case
-$searchServiceName = "";
-$webappname = "";
-$cogServicesName = "";
+$searchServiceName = "AS-Service";
+$webappname = "myknowledgeminingpage";
+$cogServicesName = "AS-KM-CognService";
 $appInsightsName = $webappname + "insights";
 
 # Storage account names can only include numbers and letters
-$storageAccountName = "";
+$storageAccountName = "askmstorage";
 ###### END PARAMETERS SECTION #####
 
 
